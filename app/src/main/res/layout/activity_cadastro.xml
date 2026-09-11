@@ -15,13 +15,13 @@
         android:layout_height="80dp"
         android:layout_margin="15dp"
         android:layout_marginTop="100dp"
-        android:src="@drawable/baseline_person" />
+        android:src="@drawable/outline_person" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:layout_width="290dp"
         android:layout_height="40dp"
         android:layout_margin="10dp"
-        android:drawableEnd="@drawable/baseline_person"
+        android:drawableEnd="@drawable/outline_person"
         android:hint="User Name"
         android:inputType="text"
 
@@ -32,7 +32,7 @@
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_margin="10dp"
-        android:drawableEnd="@drawable/baseline_fingerprint"
+        android:drawableEnd="@drawable/outline_check"
         android:hint="Password"
 
         />
@@ -42,7 +42,7 @@
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_margin="10dp"
-        android:drawableEnd="@drawable/outline"
+        android:drawableEnd="@drawable/outline_attach_email"
         android:hint="Email"
         android:inputType="textEmailAddress" />
 
@@ -50,7 +50,7 @@
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_margin="10dp"
-        android:drawableEnd="@drawable/baseline_phone_android"
+        android:drawableEnd="@drawable/outline_add_call"
         android:hint="Phone"
         android:inputType="phone" />
 
@@ -103,7 +103,7 @@
             android:layout_width="40dp"
             android:layout_height="60dp"
             android:layout_marginTop="20dp"
-            android:src="@drawable/baseline_fingerprint" />
+            android:src="@drawable/outline_enter" />
     </LinearLayout>
 
 

@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="50dp"
-
-
     tools:context=".WelcomeActivity"
-    tools:ignore="NamespaceTypo">
+    tools:ignore="NamespaceTypo"
+
+    >
 
     <?xml version="1.0" encoding="utf-8"?>
     <LinearLayout
@@ -16,13 +16,15 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context=".inicial">
+        tools:context=".inicial"
+        >
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:hint="Welcome Back "
+            android:textColorHint="#000000"
             android:textAllCaps="true"
             android:textSize="40sp"
             android:textStyle="bold"
@@ -35,13 +37,15 @@
             android:layout_height="60dp"
             android:layout_marginTop="4dp"
             android:hint="Ainda assim, eo das preferências de consumo representa uma abertura para a melhoria do sistema de participação geral."
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textColorHint="#000000"
+            />
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:layout_marginTop="30dp"
-            android:src="@drawable/baseline_person" />
+            android:src="@drawable/outline_person" />
 
         <TextView
             android:layout_width="match_parent"
@@ -49,6 +53,7 @@
             android:layout_marginTop="2dp"
             android:gravity="center"
             android:hint="COMPANY NAME"
+            android:textColorHint="#000000"
             android:textAlignment="center" />
 
 
@@ -57,6 +62,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:layout_marginTop="50dp"
+            android:textColorHint="#000000"
             android:hint="Sign In" />
 
         <Button
@@ -64,6 +70,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:layout_marginTop="50dp"
+            android:textColorHint="#000000"
             android:hint="Sign Up" />
 
 
