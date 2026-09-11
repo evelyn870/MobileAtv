@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="50dp"
     android:orientation="vertical"
     tools:context=".CadastroActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/azul"
+        android:padding="20dp">
 
 
     <ImageView
@@ -17,15 +24,17 @@
         android:layout_marginTop="100dp"
         android:src="@drawable/outline_person" />
 
-    <com.google.android.material.textfield.TextInputEditText
-        android:layout_width="290dp"
-        android:layout_height="40dp"
-        android:layout_margin="10dp"
-        android:drawableEnd="@drawable/outline_person"
-        android:hint="User Name"
-        android:inputType="text"
 
-        />
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="354dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:drawableEnd="@drawable/outline_person"
+            android:hint="User Name"
+            android:textColorHint="@color/white"
+            android:inputType="text"
+
+            />
 
 
     <com.google.android.material.textfield.TextInputEditText
@@ -34,6 +43,7 @@
         android:layout_margin="10dp"
         android:drawableEnd="@drawable/outline_check"
         android:hint="Password"
+        android:textColorHint="@color/white"
 
         />
 
@@ -44,6 +54,7 @@
         android:layout_margin="10dp"
         android:drawableEnd="@drawable/outline_attach_email"
         android:hint="Email"
+        android:textColorHint="@color/white"
         android:inputType="textEmailAddress" />
 
     <com.google.android.material.textfield.TextInputEditText
@@ -52,6 +63,7 @@
         android:layout_margin="10dp"
         android:drawableEnd="@drawable/outline_add_call"
         android:hint="Phone"
+        android:textColorHint="@color/white"
         android:inputType="phone" />
 
 
@@ -61,15 +73,17 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
+        android:textColorHint="@color/white"
         android:text="Allow terms and conditions" />
 
 
     <Button
+
         android:layout_width="280dp"
         android:layout_height="67dp"
         android:layout_margin="20dp"
         android:layout_marginTop="50dp"
-
+        android:textColorHint="@color/white"
         android:hint="Sign In" />
 
 
@@ -89,6 +103,7 @@
                 android:layout_height="20dp"
                 android:layout_marginLeft="50dp"
                 android:layout_marginTop="20dp"
+                android:textColorHint="@color/white"
                 android:text="Don't have account?" />
 
             <TextView
@@ -96,6 +111,7 @@
                 android:layout_height="26dp"
                 android:layout_marginLeft="100dp"
                 android:text="Sign up"
+                android:textColorHint="@color/white"
                 android:textSize="20dp" />
         </LinearLayout>
 
@@ -106,5 +122,7 @@
             android:src="@drawable/outline_enter" />
     </LinearLayout>
 
+
+</LinearLayout>
 
 </LinearLayout>

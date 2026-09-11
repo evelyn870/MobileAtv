@@ -35,8 +35,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Username"
-                android:textColor="#FFFFFF"
-                android:textColorHint="#FFFFFF"
+                android:textColorHint="#000000"
                 android:inputType="text" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -50,8 +49,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Password"
-                android:textColor="#FFFFFF"
-                android:textColorHint="#FFFFFF"
+                android:textColorHint="#000000"
                 android:inputType="textPassword" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -62,7 +60,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:text="Forgot your password?"
-            android:textColor="#FFFFFF"
+            android:textColor="#000000"
             android:textSize="12sp" />
 
         <Button
@@ -71,7 +69,6 @@
             android:layout_marginTop="150dp"
            android:drawableBottom="@drawable/outline_add"
             android:textColor="#FFFFFF"
-            android:textSize="14sp"
             />
 
     </LinearLayout>
